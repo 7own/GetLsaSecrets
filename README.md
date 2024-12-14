@@ -15,7 +15,8 @@ C# Implementation of Get-LSASecrets
 ## Usage
 This technique only works with a 32-bit process.
 ```
-C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe GetLSASecrets.exe
+PS > C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe GetLSASecrets.exe
+PS > python3 GetLSASecrets\hex_to_ntlm.py $HEX_STRING
 ```
 
 ## Background
